@@ -98,6 +98,12 @@ supabase/
   seed.sql                9 catégories, ~250 mots (dont une catégorie Madagascar)
 ```
 
+## Crédits
+
+Jeu imaginé et développé par **Andrew Rarijason**, © 2026.
+
+## Fonctionnement
+
 **Principe** : toute la logique de jeu (tours, chronos, vérification des réponses, scores) s'exécute dans
 PostgreSQL via des fonctions RPC. Le mot secret est stocké dans une table illisible par les joueurs : seul le
 dessinateur le reçoit. Les clients s'abonnent aux changements des tables (Realtime) pour se mettre à jour.

@@ -412,7 +412,8 @@ input:focus { border-color: var(--primary); box-shadow: 0 0 0 4px rgba(91, 76, 2
 
 /* (pas sur .hero : un contexte d'empilement casserait le « multiply » du logo) */
 .home > .card,
-.home > .rules {
+.home > .rules,
+.home > .credits {
   position: relative;
   z-index: 1;
 }
@@ -496,6 +497,22 @@ input:focus { border-color: var(--primary); box-shadow: 0 0 0 4px rgba(91, 76, 2
   flex-direction: column;
   gap: 6px;
 }
+
+.credits {
+  text-align: center;
+  padding: 18px 12px 8px;
+  border-top: 2px dashed var(--border);
+}
+
+.credits h3 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.credits strong { color: var(--primary); }
 
 /* ---------- Salon ---------- */
 

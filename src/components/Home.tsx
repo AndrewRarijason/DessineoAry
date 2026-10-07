@@ -7,6 +7,7 @@ import { loadNickname, saveNickname } from '../lib/storage';
 import { useAction } from '../hooks/useAction';
 import { HeroLogo } from './Logo';
 import { Rules } from './Rules';
+import { Credits } from './Credits';
 import { SoundToggle } from './SoundToggle';
 
 const DOODLES = ['✏️', '🎨', '🖍️', '⭐', '💡', '🖌️', '❓', '🌀', '✨', '🎉'];
@@ -112,6 +113,7 @@ export function Home() {
       </div>
 
       <Rules />
+      <Credits />
     </div>
   );
 }
