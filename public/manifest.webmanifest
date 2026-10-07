@@ -1,0 +1,14 @@
+{
+  "name": "Dessineo Ary !",
+  "short_name": "Dessineo",
+  "description": "Le jeu de dessin multijoueur en ligne : dessinez, devinez, gagnez.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff7ef",
+  "theme_color": "#4f46e5",
+  "lang": "fr",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
